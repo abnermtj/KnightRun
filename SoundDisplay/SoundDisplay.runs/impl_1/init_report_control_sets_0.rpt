@@ -1,0 +1,60 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  4 19:55:53 2020
+| Host         : LAPTOP-M9JJG3M0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -file init_report_control_sets_0.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+
+1. Summary
+----------
+
++-------------------------------+-------+
+|             Status            | Count |
++-------------------------------+-------+
+| Number of unique control sets |   136 |
++-------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            7 |
+|      4 |            4 |
+|      6 |            1 |
+|      8 |           23 |
+|     10 |           18 |
+|     12 |            2 |
+|     14 |           28 |
+|    16+ |           53 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1474 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |            1900 |            0 |
+| Yes          | No                    | No                     |             664 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             484 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+

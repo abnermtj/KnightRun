@@ -1,0 +1,41 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SoundDisplay.srcs/sources_1/new/3_1_2bitMUX.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/Mainmenu.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/Oled_Display.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/ToPixel.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/acceleration.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/breathing.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/clk_oled.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/debouncer.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/dff.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/freezer.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/gameassets.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/gamestatus.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/improvement_mode.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/mainmenubg.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/nusimage.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/rgb.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/signalextend.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/textmenu.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/volumebar.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/volumebar1.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/volumebar2.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/Top_Student.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/Audio_Capture.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/t4.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/t5.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/t0.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/t1.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/t2.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/t3.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/platformer.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/playerdraw.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/treesbg.v" \
+"../../../../SoundDisplay.srcs/sim_1/new/simclk.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

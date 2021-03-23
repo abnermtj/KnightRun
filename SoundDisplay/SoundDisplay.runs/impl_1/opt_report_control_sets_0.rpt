@@ -1,0 +1,207 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  4 19:56:55 2020
+| Host         : LAPTOP-M9JJG3M0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file opt_report_control_sets_0.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   136 |
+| Unused register locations in slices containing registers |   302 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            7 |
+|      4 |            4 |
+|      6 |            1 |
+|      8 |           23 |
+|     10 |           18 |
+|     12 |            2 |
+|     14 |           28 |
+|    16+ |           53 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1474 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |            1900 |            0 |
+| Yes          | No                    | No                     |             664 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             484 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+---------------------------------------------------------+-------------------------------------------------+------------------+----------------+
+|               Clock Signal               |                      Enable Signal                      |                 Set/Reset Signal                | Slice Load Count | Bel Load Count |
++------------------------------------------+---------------------------------------------------------+-------------------------------------------------+------------------+----------------+
+|  slowclk/counter_high_reg[3]             |                                                         |                                                 |                0 |              2 |
+|  tactic/status/stuck_reg_i_2_n_0         |                                                         |                                                 |                0 |              2 |
+|  highclk/counter_low_reg[3]              |                                                         |                                                 |                0 |              2 |
+|  debouncec/dff2/dgbtnC                   |                                                         |                                                 |                0 |              2 |
+|  medclk/counter_med_reg[3]               |                                                         |                                                 |                0 |              2 |
+| ~_6_25mhz_BUFG                           |                                                         |                                                 |                0 |              2 |
+|  whacko/catch/pivot_result_reg           |                                                         | whacko/sound/SR[0]                              |                0 |              2 |
+|  tactic/status/winner_reg[1]_i_2_n_0     |                                                         |                                                 |                0 |              4 |
+|  _3hzclk/CLK                             |                                                         |                                                 |                0 |              4 |
+|  whacko/SLOOOWclk/SLOOOW_CLOCK           |                                                         |                                                 |                0 |              4 |
+|  whacko/SLOW2clk/SLOW_CLOCK2             |                                                         |                                                 |                0 |              4 |
+|  tactic/status/winstate_reg[2]_i_2_n_0   |                                                         |                                                 |                0 |              6 |
+|  medclk/counter_med_reg[3]               | game1/guess/sel                                         | game1/guess/clear                               |                0 |              8 |
+|  _5hzclk/CLK                             |                                                         |                                                 |                0 |              8 |
+|  J_MIC3_Pin1_OBUF_BUFG                   | whacko/sound/an_hello[3]_i_1_n_0                        | whacko/sound/an_hello[1]_i_1_n_0                |                0 |              8 |
+|  J_MIC3_Pin1_OBUF_BUFG                   | whacko/sound/an_hello8[2]_i_1_n_0                       |                                                 |                0 |              8 |
+|  slowclk/counter_high_reg[3]             | game1/guess/counter_high0_inferred__0/i__n_0            | game1/guess/counter_high[3]_i_1_n_0             |                0 |              8 |
+|  _381hz_BUFG                             |                                                         | debouncer/dff1/count_reg[3]                     |                0 |              8 |
+|  highclk/counter_low_reg[3]              | game1/guess/counter_low0_inferred__0/i__n_0             | game1/guess/counter_low[3]_i_1_n_0              |                0 |              8 |
+|  menu/accmod/speeddropoff/micdata_reg[3] |                                                         |                                                 |                0 |              8 |
+|  menu/accmod/speedval7/speed             |                                                         | menu/accmod/count[3]_i_1_n_0                    |                0 |              8 |
+|  J_MIC3_Pin1_OBUF_BUFG                   | pgens/discrete_levels0                                  | pgens/number_ones_reg[5]                        |                0 |              8 |
+|  _381hz_BUFG                             | whacko/catch/result_lose[3]_i_1_n_0                     |                                                 |                0 |              8 |
+|  _381hz_BUFG                             | tactic/sel                                              |                                                 |                0 |              8 |
+|  _381hz_BUFG                             | game1/welcome_random/an_welcome3[0]_i_1_n_0             |                                                 |                0 |              8 |
+|  _381hz_BUFG                             | run/hello/an_hi3[1]_i_1_n_0                             |                                                 |                0 |              8 |
+|  _381hz_BUFG                             | run/hello/an_hi11[2]_i_1_n_0                            |                                                 |                0 |              8 |
+|  _381hz_BUFG                             | run/hello/an_hi[3]_i_1_n_0                              | run/hello/seg_hi[3]_i_1__0_n_0                  |                0 |              8 |
+|  _381hz_BUFG                             | run/start/an_hi3[2]_i_1_n_0                             |                                                 |                0 |              8 |
+|  _381hz_BUFG                             | game1/random/tens/num_disp[5]_i_2_n_0                   | game1/random/tens/num_disp[5]_i_1_n_0           |                0 |              8 |
+|  _381hz_BUFG                             | game1/random/ones/__0/i__n_0                            | game1/random/ones//i__n_0                       |                0 |              8 |
+|  _381hz_BUFG                             | game1/play1/tries                                       | game1/welcome_random/reset_reg_0                |                0 |              8 |
+|  _381hz_BUFG                             |                                                         | sw_IBUF[0]                                      |                0 |              8 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/playery[4]                              | nolabel_line187/playery[4]_i_1_n_0              |                0 |              8 |
+|  _381hz_BUFG                             |                                                         | debounceu/dff1/dbtnU                            |                0 |              8 |
+|  tactic/slowgb/CLK                       | tactic/color/g[5]_i_1_n_0                               |                                                 |                0 |             10 |
+|  tactic/slowgb/CLK                       | tactic/color/b[4]_i_1_n_0                               |                                                 |                0 |             10 |
+|  tactic/slowgb/CLK                       | tactic/color/r[4]_i_1_n_0                               |                                                 |                0 |             10 |
+|  _3hzclk/CLK                             |                                                         | set_origin/level_db/counter4                    |                0 |             10 |
+|  _3hzclk/CLK                             |                                                         | set_origin/level_db/counter3                    |                0 |             10 |
+|  _5hzclk/CLK                             | run/hello/sequence[4]_i_2__1_n_0                        | run/hello/sequence[4]_i_1__1_n_0                |                0 |             10 |
+|  _5hzclk/CLK                             | run/start/sequence[4]_i_2__2_n_0                        | run/runout/SR[0]                                |                0 |             10 |
+|  _5hzclk/CLK                             | game1/welcome_random/sequence[4]_i_1__0_n_0             | game1/random/SR[0]                              |                0 |             10 |
+|  _381hz_BUFG                             | debouncec/dff1/dbtnC                                    |                                                 |                0 |             10 |
+|  _381hz_BUFG                             | menu/accmod/E[0]                                        |                                                 |                0 |             10 |
+|  J_MIC3_Pin1_OBUF_BUFG                   |                                                         | pgens/number_ones_reg[5]                        |                0 |             10 |
+|  _381hz_BUFG                             |                                                         | game1/welcome_random/reset_reg_0                |                0 |             10 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/charstate[4]_i_1_n_0                    |                                                 |                0 |             10 |
+|  _5hzclk/CLK                             | whacko/sound/sequence[4]_i_2_n_0                        | whacko/sound/sequence[4]_i_1_n_0                |                0 |             10 |
+|  J_MIC3_Pin1_OBUF_BUFG                   | whacko/sound/an_hello[3]_i_1_n_0                        |                                                 |                0 |             10 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/enemystate[4]_i_2_n_0                   | nolabel_line187/enemystate[4]_i_1_n_0           |                0 |             10 |
+|  J_MIC3_Pin1_OBUF_BUFG                   | whacko/sound/an_hello3[0]_i_1_n_0                       |                                                 |                0 |             10 |
+|  CLK100MHZ_IBUF_BUFG                     | signalextU/E[0]                                         |                                                 |                0 |             10 |
+|  menu/accmod/speeddropoff/micdata_reg[3] | menu/accmod/sel                                         |                                                 |                0 |             12 |
+|  tactic/breatheclk/CLK                   |                                                         |                                                 |                0 |             12 |
+|  _7hz_BUFG                               |                                                         | run/showdown/run/seg_final_reg[6]_4[0]          |                0 |             14 |
+|  _381hz_BUFG                             | run/runout/an1A/seg[6]_i_1__3_n_0                       |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | run/runout/an2A/seg[6]_i_1__2_n_0                       |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | run/runout/an3A/seg[6]_i_1__1_n_0                       |                                                 |                0 |             14 |
+|  nolabel_line187/graphics/sclk/CLK       |                                                         |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | game1/play1/ones/seg[6]_i_1__0_n_0                      |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | whacko/pafa/E[0]                                        | whacko/sound/SR[0]                              |                0 |             14 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/distleft[6]_i_1_n_0                     | nolabel_line187/enemystate[4]_i_1_n_0           |                0 |             14 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/graphics/sel                            | nolabel_line187/graphics/clear                  |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | game1/play1/anode/SS[0]                         |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | game1/play1/anode/seg_final_reg[6]_1[0]         |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | run/showdown/run/seg_final_reg[6]_5[0]          |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | run/showdown/run/SS[0]                          |                0 |             14 |
+|  _381hz_BUFG                             | run/showdown/an3B/seg[6]_i_1__5_n_0                     |                                                 |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | run/showdown/run/seg_final_reg[6]_3[0]          |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | run/runout/run/seg_final_reg[6]_5[0]            |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | run/runout/run/seg_final_reg[6]_4[0]            |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | run/runout/run/SS[0]                            |                0 |             14 |
+|  _7hz_BUFG                               |                                                         | run/runout/run/seg_final_reg[6]_3[0]            |                0 |             14 |
+|  _381hz_BUFG                             |                                                         | game1/hint/count                                |                0 |             14 |
+|  _381hz_BUFG                             | game1/play1/tens/seg[6]_i_1_n_0                         |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | game1/random/random_val0                                | game1/random/SR[0]                              |                0 |             14 |
+|  _381hz_BUFG                             | run/showdown/an0B/seg[6]_i_1__8_n_0                     |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | run/showdown/an1B/seg[6]_i_1__7_n_0                     |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | run/showdown/an2B/seg[6]_i_1__6_n_0                     |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | run/hello/an_hi[3]_i_1_n_0                              |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | run/showdown/tries[6]_i_1_n_0                           |                                                 |                0 |             14 |
+|  _381hz_BUFG                             | run/runout/an0A/seg[6]_i_1__4_n_0                       |                                                 |                0 |             14 |
+|  whacko/catch/seg_digit_reg[4]_13[0]     |                                                         | whacko/sound/SR[0]                              |                0 |             16 |
+|  _381hz_BUFG                             | whacko/cash/E[0]                                        |                                                 |                0 |             16 |
+|  _381hz_BUFG                             | game1/print/fail_result                                 |                                                 |                0 |             16 |
+|  nolabel_line187/animation_clock_mod/CLK |                                                         |                                                 |                0 |             18 |
+|  _381hz_BUFG                             | game1/play1/E[0]                                        |                                                 |                0 |             18 |
+|  _381hz_BUFG                             | set_origin/counter[1]_i_1__5_n_0                        |                                                 |                0 |             18 |
+|  _381hz_BUFG                             | run/start/an_hi[3]_i_1__0_n_0                           |                                                 |                0 |             18 |
+|  _7hz_BUFG                               |                                                         |                                                 |                0 |             20 |
+|  _381hz_BUFG                             | game1/random/random_ones                                | game1/random/SR[0]                              |                0 |             22 |
+|  _381hz_BUFG                             | game1/welcome_random/an_welcome[3]_i_1_n_0              |                                                 |                0 |             22 |
+|  pgens/mic_val0                          |                                                         |                                                 |                0 |             24 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | J_MIC3_Pin1_OBUF_BUFG                           |                0 |             24 |
+| ~catch/J_MIC3_Pin4_OBUF                  |                                                         |                                                 |                0 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG                   | pgens/max_reg[11]_i_2_n_2                               | pgens/max0                                      |                0 |             24 |
+| ~_6_25mhz_BUFG                           |                                                         | debouncec/dff2/resetOled                        |                0 |             34 |
+|  debouncec/dff2/dgbtnC                   |                                                         | tactic/status/done                              |                0 |             36 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/graphics/stomprock_countdown[0]_i_1_n_0 |                                                 |                0 |             38 |
+| ~_6_25mhz_BUFG                           | my_display/delay[0]_i_1_n_0                             | debouncec/dff2/resetOled                        |                0 |             40 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/jumpstate_countdown                     |                                                 |                0 |             48 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/runstate_countdown                      |                                                 |                0 |             48 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/rollstate_countdown                     | nolabel_line187/rollstate_countdown[23]_i_1_n_0 |                0 |             48 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/graphics/enemy_stompstate_countdown     |                                                 |                0 |             48 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/enemy_runstate_countdown                | nolabel_line187/enemystate[4]_i_1_n_0           |                0 |             48 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/graphics/enemy_laserstate_countdown     |                                                 |                0 |             48 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line187/graphics/charstate122_out               | nolabel_line187/enemystate[4]_i_1_n_0           |                0 |             52 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | nolabel_line187/animation_clock_mod/clear       |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speedval1/count[0]_i_1__8_n_0       |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | _20khzclk/count[0]_i_1__13_n_0                  |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | _7hzclk/count[0]_i_1__18_n_0                    |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speeddropoff/clear                  |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | highclk/count[0]_i_1__17_n_0                    |                0 |             64 |
+| ~_6_25mhz_BUFG                           | my_display/state                                        | debouncec/dff2/resetOled                        |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speedval2/count[0]_i_1__4_n_0       |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speedval3/count[0]_i_1__5_n_0       |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | _6_25mhzclk/count[0]_i_1__21_n_0                |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speedval4/count[0]_i_1__6_n_0       |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speedval5/count[0]_i_1__7_n_0       |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speedval6/count[0]_i_1__3_n_0       |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | menu/accmod/speedval7/count[0]_i_1__2_n_0       |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | tactic/slowgb/clear                             |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | _5hzclk/count[0]_i_1__20_n_0                    |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | slowclk/clear                                   |                0 |             64 |
+|  _381hz_BUFG                             |                                                         | tactic/breatheclk/count[0]_i_1__11_n_0          |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | whacko/SLOOOWclk/count[0]_i_1__10_n_0           |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | whacko/SLOW2clk/clear                           |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | nolabel_line187/graphics/sclk/clear             |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | _3hzclk/count[0]_i_1__19_n_0                    |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | _381hzclk/count[0]_i_1__14_n_0                  |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         | medclk/count[0]_i_1__16_n_0                     |                0 |             64 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                         |                                                 |                0 |             68 |
+| ~_6_25mhz_BUFG                           |                                                         | my_display/spi_word[39]_i_1_n_0                 |                0 |             90 |
+|  J_MIC3_Pin1_OBUF_BUFG                   |                                                         |                                                 |                0 |            234 |
+|  _381hz_BUFG                             |                                                         |                                                 |                0 |           1010 |
++------------------------------------------+---------------------------------------------------------+-------------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,72 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/3_1_2bitMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _3_1_16bitMUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Mainmenu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mainmenu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Oled_Display
+WARNING: [VRFC 10-756] identifier state is used before its declaration [C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:106]
+WARNING: [VRFC 10-756] identifier state is used before its declaration [C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:108]
+WARNING: [VRFC 10-756] identifier state is used before its declaration [C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:110]
+WARNING: [VRFC 10-756] identifier state is used before its declaration [C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:111]
+WARNING: [VRFC 10-756] identifier state is used before its declaration [C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:112]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/ToPixel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ToPixel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/acceleration.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module acceleration
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/breathing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module breathing
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/clk_oled.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/debouncer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/freezer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freezer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/gameassets.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ground
+INFO: [VRFC 10-311] analyzing module charrun
+INFO: [VRFC 10-311] analyzing module charjump
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/gamestatus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gamestatus
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/improvement_mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tictac
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/mainmenubg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mainmenubg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/nusimage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blackback
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/rgb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/signalextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signalextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/textmenu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module text0
+INFO: [VRFC 10-311] analyzing module text1
+INFO: [VRFC 10-311] analyzing module text2
+INFO: [VRFC 10-311] analyzing module text3
+INFO: [VRFC 10-311] analyzing module text4
+INFO: [VRFC 10-311] analyzing module text5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/volumebar.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module volumebar
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/volumebar1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module volumebar1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/volumebar2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module volumebar2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_Student
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Audio_Capture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/t4.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/t5.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/t0.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/t1.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/t2.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/t3.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/platformer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module platformer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/playerdraw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sources_1/new/treesbg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module treesbg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Abner/Desktop/Y1Sem2/EE2026 Digital Design/Proj/SoundDisplay/SoundDisplay.srcs/sim_1/new/simclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim
